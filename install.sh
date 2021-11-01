@@ -6,7 +6,7 @@ sudo apt -y install openbox lxqt xrdp
 
 cat << EOF > ~/.xsession
 openbox-session &
-startlxqt &
+startlxqt
 EOF
 
 
