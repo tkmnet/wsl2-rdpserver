@@ -1,7 +1,7 @@
 #!/bin/sh
 
 sudo apt -y update
-sudo apt -y install openbox lxqt
+sudo apt -y install openbox lxqt xrdp
 
 
 cat << EOF > ~/.xsession
